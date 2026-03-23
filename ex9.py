@@ -4,10 +4,10 @@ nome = input("Insira seu nome:")
 sobrenome = input("Insira seu sobrenome:")
 cpf = input("Insira seu CPF:")
 
-if nome == "Rafael" and sobrenome == "Boneti" and cpf == "10010010010":
+if nome == "valeria" and sobrenome == "barbosa" and cpf == "10010010010":
     print("Acesso VIP permitido.")
 
-elif nome == "Rafael" or sobrenome == "Boneti" and cpf == "10010010010":
+elif nome == "valeria" or sobrenome == "barbosa" and cpf == "10010010010":
     print("Acesso será verificado manualmente.")
 
 else:
