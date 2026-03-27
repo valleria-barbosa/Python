@@ -1,0 +1,9 @@
+{
+    "quicktype.justTypes": false,
+    "quicktype.inferUuids": false,
+    "quicktype.inferMaps": false,
+    "quicktype.inferIntegerStrings": false,
+    "quicktype.inferEnums": false,
+    "quicktype.inferDateTimes": false,
+    "quicktype.inferBooleanStrings": false
+}
