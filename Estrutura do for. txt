@@ -1,0 +1,12 @@
+lista = []
+
+for i in range (5):
+    nome = input("Digite seu nome: ")
+    lista.append(nome)
+    print (lista)
+
+[] lista
+() dupla 
+{} dicionário
+
+o Append que vai colocar o item dentro da lista.
