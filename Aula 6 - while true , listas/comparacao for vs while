@@ -1,0 +1,64 @@
+#Ex.1
+for i in range(3):
+    print(i)
+
+i = 0
+while i<3:
+    print(i)
+    i +=1
+
+#Ex.2
+nomes = ["ana", "laura","pedro","paulo"]
+
+for i in nomes:
+    print(i)
+
+i = 0
+while i < len(nomes):
+    print(nomes[i])
+    i += 1
+
+#Ex.3
+
+lista =[10,20,30,40,50]
+soma = 0
+
+for i in lista:
+    soma += i
+    print(soma)
+
+i = 0
+while i < len(lista):
+    soma += lista[i]
+    print(soma)
+    i +=1
+
+#Ex.4
+
+lista = []
+for i in range(3):
+    nome = input("Digite seu nome: ")
+    lista.append(nome)
+    print(lista)
+
+lista = []
+i = 0
+while i<=3:
+    nome = input("Digite seu nome: ")
+    i += 1
+    lista.append(nome)
+    print(lista)
+
+
+#Ex.5
+for i in range(3):
+    senha = input("Digite sua senha: ")
+    if senha == "sair":
+        print(senha)
+        break
+
+while True:
+    nome = input("Digite seu nome: ").lower() #a função lower passa tudo para minusculo.
+    if nome == "sair":
+        break
+    print(nome)
