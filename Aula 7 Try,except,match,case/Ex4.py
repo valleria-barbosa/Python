@@ -1,0 +1,1 @@
+#Inclua uma nova coluna ao dataframe existente chamada lucro/venda. Após isso, mostre o respectivo produto em relação lucro/venda de cada produto
